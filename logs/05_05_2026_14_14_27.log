@@ -1,0 +1,21 @@
+[ 2026-05-05 14:14:28,801 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-05-05 14:14:28,804 ] 97 werkzeug - INFO -  * Debugger PIN: 836-321-403
+[ 2026-05-05 14:14:48,649 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:48] "GET / HTTP/1.1" 200 -
+[ 2026-05-05 14:14:51,440 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:52,504 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:52,754 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:52,899 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,036 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,169 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,305 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,446 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,569 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,694 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,818 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:53,947 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:54,072 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:54,192 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:54,318 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:54,498 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:54,619 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:14:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:16:39,476 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\krish\\Downloads\\ola_forecasting\\ola_forecasting\\app.py', reloading

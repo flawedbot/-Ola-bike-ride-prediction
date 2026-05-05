@@ -1,0 +1,43 @@
+[ 2026-05-05 13:49:39,844 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-05-05 13:49:39,846 ] 97 werkzeug - INFO -  * Debugger PIN: 836-321-403
+[ 2026-05-05 13:49:48,126 ] 35 root - INFO - Input Dataframe created for Ola Bike Request Prediction
+[ 2026-05-05 13:49:48,580 ] 49 root - ERROR - Prediction Error: Error occured in python script name [C:\Users\krish\Downloads\ola_forecasting\ola_forecasting\src\pipeline\predict_pipeline.py] line number [26] error message[Found unknown categories [None] in column 0 during transform]
+[ 2026-05-05 13:49:48,585 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:48] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:50,308 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:50] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:53,085 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:54,461 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:54,888 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:54] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:55,040 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:55] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:55,239 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:55] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:55,357 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:55] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:55,478 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:55] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:55,874 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:55] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:56,043 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:56] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:49:56,244 ] 97 werkzeug - INFO - 192.168.31.204 - - [05/May/2026 13:49:56] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:18,964 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:18] "GET / HTTP/1.1" 200 -
+[ 2026-05-05 13:50:20,051 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-05-05 13:50:47,369 ] 35 root - INFO - Input Dataframe created for Ola Bike Request Prediction
+[ 2026-05-05 13:50:47,388 ] 49 root - ERROR - Prediction Error: Error occured in python script name [C:\Users\krish\Downloads\ola_forecasting\ola_forecasting\src\pipeline\predict_pipeline.py] line number [26] error message[Found unknown categories [None] in column 0 during transform]
+[ 2026-05-05 13:50:47,390 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:47] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:48,775 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:49,930 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:49] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:50,078 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:50] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:50,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:50] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:50,369 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:50] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:50,588 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:50] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:51,997 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:52,164 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:52,319 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:52,455 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:52,596 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:52,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:53,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:50:53,378 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:50:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:52:19,036 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:52:19] "GET / HTTP/1.1" 200 -
+[ 2026-05-05 13:52:49,103 ] 35 root - INFO - Input Dataframe created for Ola Bike Request Prediction
+[ 2026-05-05 13:52:49,124 ] 49 root - ERROR - Prediction Error: Error occured in python script name [C:\Users\krish\Downloads\ola_forecasting\ola_forecasting\src\pipeline\predict_pipeline.py] line number [26] error message[Found unknown categories [None] in column 0 during transform]
+[ 2026-05-05 13:52:49,125 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:52:49] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:52:50,558 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:52:50] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:52:51,520 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:52:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:52:51,747 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 13:52:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 13:54:05,116 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\krish\\Downloads\\ola_forecasting\\ola_forecasting\\app.py', reloading

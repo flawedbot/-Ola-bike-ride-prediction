@@ -1,0 +1,6 @@
+[ 2026-05-05 13:02:11,813 ] 22 root - INFO - Entered the data ingestion method
+[ 2026-05-05 13:02:11,815 ] 40 root - INFO - Found file: C:\Users\krish\Downloads\ola_forecasting\ola_forecasting\notebook\data\ola_raw.csv
+[ 2026-05-05 13:02:11,982 ] 67 root - INFO - Read train and test data completed
+[ 2026-05-05 13:02:11,983 ] 68 root - INFO - Obtaining preprocessing object
+[ 2026-05-05 13:02:11,983 ] 47 root - INFO - Numerical columns: ['temperature', 'humidity', 'windspeed']
+[ 2026-05-05 13:02:11,983 ] 48 root - INFO - Categorical columns: ['weather', 'holiday', 'workingday']

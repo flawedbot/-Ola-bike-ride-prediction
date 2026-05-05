@@ -1,0 +1,9 @@
+[ 2026-05-05 14:39:28,911 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-05-05 14:39:28,915 ] 97 werkzeug - INFO -  * Debugger PIN: 836-321-403
+[ 2026-05-05 14:40:05,905 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:40:05] "GET / HTTP/1.1" 200 -
+[ 2026-05-05 14:40:09,171 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:40:09] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:40:25,614 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:40:25] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:40:41,611 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:40:41] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:40:56,863 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:40:56] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:41:14,882 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:41:14] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:44:43,935 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\krish\\Downloads\\ola_forecasting\\ola_forecasting\\src\\pipeline\\predict_pipeline.py', reloading

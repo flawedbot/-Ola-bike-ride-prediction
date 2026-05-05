@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ola Demand Forecasting</title>
+    <style>
+        body { background-color: #0d001a; color: white; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+        .card { background: #1a0033; padding: 30px; border-radius: 15px; width: 450px; border: 1px solid #bc66ff; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h2 { color: #bc66ff; text-align: center; text-transform: uppercase; margin-bottom: 20px; }
+        .field { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; color: #d1b3ff; font-weight: bold; }
+        input, select { width: 100%; padding: 12px; background: #0d001a; border: 1px solid #4d0099; color: white; border-radius: 8px; box-sizing: border-box; }
+        .btn { background: #9933ff; color: white; width: 100%; padding: 15px; border: none; border-radius: 50px; cursor: pointer; font-weight: bold; font-size: 1.1rem; margin-top: 10px; }
+        .btn:hover { background: #bc66ff; }
+        .result-box { text-align: center; color: #bc66ff; font-size: 1.5rem; margin-top: 20px; font-weight: bold; }
+        .error-box { margin-top: 20px; padding: 10px; border: 1px solid #ff4d4d; background: rgba(255,77,77,0.1); color: #ff4d4d; font-size: 0.8rem; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Ride Predictor</h2>
+        <form action="/predictdata" method="POST">
+            <div class="field">
+                <label>Season</label>
+                <select name="season">
+                    <option value="1">Spring (1)</option>
+                    <option value="2">Summer (2)</option>
+                    <option value="3">Rainy (3)</option>
+                    <option value="4">Fall/Winter (4)</option>
+                </select>
+            </div>
+            <!-- RESTORED: Time Section -->
+            <div class="field">
+                <label>Hour of Day (0-23)</label>
+                <input type="number" name="hour" min="0" max="23" placeholder="e.g. 14" required>
+            </div>
+            <div class="field"><label>Temp (°C)</label><input type="text" name="temp" required></div>
+            <div class="field"><label>Humidity (%)</label><input type="text" name="humidity" required></div>
+            <div class="field"><label>Windspeed</label><input type="text" name="windspeed" required></div>
+            
+            <input type="hidden" name="holiday" value="0">
+            <input type="hidden" name="workingday" value="1">
+            <input type="hidden" name="weather" value="1">
+
+            <button type="submit" class="btn">Predict Demand</button>
+        </form>
+
+        {% if results %}
+            <div class="result-box">Predicted Demand: {{results}}</div>
+        {% endif %}
+
+        {% if error %}
+            <div class="error-box"><strong>Model Alert:</strong> {{error}}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

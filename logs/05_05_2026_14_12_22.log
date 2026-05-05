@@ -1,0 +1,16 @@
+[ 2026-05-05 14:12:23,802 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-05-05 14:12:23,804 ] 97 werkzeug - INFO -  * Debugger PIN: 836-321-403
+[ 2026-05-05 14:12:35,512 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:35] "GET / HTTP/1.1" 200 -
+[ 2026-05-05 14:12:39,048 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:39] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:12:40,606 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:40] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:12:40,988 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:40] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:12:41,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:41] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:12:41,304 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:41] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:12:41,527 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:12:41] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:13:03,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:13:03] "GET / HTTP/1.1" 200 -
+[ 2026-05-05 14:13:03,265 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:13:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-05-05 14:13:06,675 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:13:06] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:13:08,680 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:13:08] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:13:09,125 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:13:09] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:13:09,479 ] 97 werkzeug - INFO - 127.0.0.1 - - [05/May/2026 14:13:09] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-05-05 14:14:05,139 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\krish\\Downloads\\ola_forecasting\\ola_forecasting\\app.py', reloading

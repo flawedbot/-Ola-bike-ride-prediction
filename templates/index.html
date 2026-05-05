@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola Bike Demand AI</title>
+    <style>
+        /* Essential fixture for the Black and Purple Theme */
+        body {
+            background-color: #0d001a; 
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden; /* Prevents double scrollbar issues */
+        }
+        .hero-section {
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 0.8s ease-in;
+        }
+        h1 {
+            color: #bc66ff; /* Vibrant Purple */
+            font-size: 4.5rem;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        p {
+            color: #d1b3ff;
+            font-size: 1.25rem;
+            max-width: 650px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+        .launch-btn {
+            background-color: #9933ff;
+            color: #ffffff;
+            padding: 18px 50px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.4rem;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: inline-block;
+            box-shadow: 0 4px 20px rgba(153, 51, 255, 0.3);
+            border: 2px solid transparent;
+        }
+        .launch-btn:hover {
+            background-color: #bc66ff;
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 10px 30px rgba(153, 51, 255, 0.5);
+            border: 2px solid #ffffff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <h1>Ola Bike Demand Forecasting</h1>
+        <p>Optimizing fleet distribution using Machine Learning and Temporal Features. Predict ride requests automatically based on weather, time, and environmental conditions.</p>
+        
+        <!-- FIXTURE: This link targets the specific route in app.py to avoid loops -->
+        <a href="/predictdata" class="launch-btn">Launch Predictor</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[ 2026-05-05 13:15:00,915 ] 22 root - INFO - Entered the data ingestion method
+[ 2026-05-05 13:15:00,916 ] 37 root - INFO - Found file: C:\Users\krish\Downloads\ola_forecasting\ola_forecasting\notebook\data\ola_raw.csv
+[ 2026-05-05 13:15:01,123 ] 71 root - INFO - Read train and test data completed
+[ 2026-05-05 13:15:01,125 ] 78 root - INFO - Sanitized columns: ['datetime', 'season', 'weather', 'temp', 'humidity', 'windspeed', 'casual', 'registered', 'count', 'hour', 'day', 'month']
+[ 2026-05-05 13:15:01,125 ] 80 root - INFO - Obtaining preprocessing object
+[ 2026-05-05 13:15:01,125 ] 51 root - INFO - Numerical columns: ['temp', 'humidity', 'windspeed']
+[ 2026-05-05 13:15:01,125 ] 52 root - INFO - Categorical columns: ['season', 'holiday', 'workingday', 'weather']
+[ 2026-05-05 13:15:01,129 ] 96 root - INFO - Applying preprocessing object on training and testing dataframes
