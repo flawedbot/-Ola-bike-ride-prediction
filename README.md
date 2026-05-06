@@ -28,3 +28,21 @@ ola_forecasting/
 │       └── ola_raw.csv        # Your cleaned dataset
 └── templates/
     └── index.html             # Black & Purple dashboard
+
+🚀 How to Run
+1. Clone the repository
+Bash
+git clone https://github.com/flawedbot/-Ola-bike-ride-prediction.git
+cd -Ola-bike-ride-prediction
+2. Install dependencies
+Bash
+pip install -r requirements.txt
+3. Run the notebook
+Bash
+jupyter notebook
+💡 Future Improvements
+Add XGBoost / advanced models
+Build a Streamlit web app for real-time predictions
+Deploy the model on cloud (AWS / Render)
+Integrate real-time weather data
+Improve feature engineering
