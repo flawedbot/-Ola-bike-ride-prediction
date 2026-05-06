@@ -13,23 +13,7 @@ The goal of this project is to optimize fleet distribution for Ola bike ride req
 *   **Frontend:** HTML5/CSS3 with a Black & Purple aesthetic
 *   **OS:** Windows
 
-## 📁 Project Structure
-```text
-ola_forecasting/
-├── app.py                     # Flask application (The "Bridge")
-├── src/                       # Source code directory
-│   ├── components/            # Pipeline components
-│   │   ├── data_ingestion.py  # Splits raw data into train/test
-│   │   ├── data_transformation.py # Preprocesses features
-│   │   └── model_trainer.py   # Trains the ML brain
-├── artifacts/                 # Generated models and CSVs (Automatic)
-├── notebook/
-│   └── data/
-│       └── ola_raw.csv        # Your cleaned dataset
-└── templates/
-    └── index.html             # Black & Purple dashboard
-
-🚀 How to Run
+##  🚀 How to Run
 1. Clone the repository
 Bash
 git clone https://github.com/flawedbot/-Ola-bike-ride-prediction.git
@@ -46,3 +30,20 @@ Build a Streamlit web app for real-time predictions
 Deploy the model on cloud (AWS / Render)
 Integrate real-time weather data
 Improve feature engineering
+
+## 📁 Project Structure
+```text
+ola_forecasting/
+├── app.py                     # Flask application (The "Bridge")
+├── src/                       # Source code directory
+│   ├── components/            # Pipeline components
+│   │   ├── data_ingestion.py  # Splits raw data into train/test
+│   │   ├── data_transformation.py # Preprocesses features
+│   │   └── model_trainer.py   # Trains the ML brain
+├── artifacts/                 # Generated models and CSVs (Automatic)
+├── notebook/
+│   └── data/
+│       └── ola_raw.csv        # Your cleaned dataset
+└── templates/
+    └── index.html             # Black & Purple dashboard
+
